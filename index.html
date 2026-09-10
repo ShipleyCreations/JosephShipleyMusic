@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joseph Shipley Music</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Enable smooth scrolling when clicking navigation links */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Styling based on requirements */
+    body {
+      background-color: #36454F;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #00d4ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Small Profile Image */
+    .profile-img {
+      max-width: 150px;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    /* Specific 250x250 Project Image */
+    .project-img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      /* Extra padding top to prevent navbar covering content if navbar is fixed */
+      scroll-margin-top: 20px; 
+    }
+
+    .project-card {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <!-- Brand / Logo -->
+    <div class="nav-logo"><a href="#home">JosephShipleyMusic</a></div>
+    
+    <!-- Mobile Toggle Button -->
+    <button class="nav-toggle" id="js-navbar-toggle" aria-label="Toggle navigation">
+      &#9776;
+    </button>
+    
+    <!-- Navigation Links -->
+    <ul class="nav-links" id="js-menu">
+      <li><a href="#home" class="nav-item">Home</a></li>
+      <li><a href="#about" class="nav-item">About Me</a></li>
+      <li><a href="#discography" class="nav-item">Discography</a></li>
+      <li><a href="#projects" class="nav-item">Music Projects</a></li>
+      <li><a href="#contact" class="nav-item">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <h1>Joseph Shipley Music</h1>
+      <p>Welcome to the official website of Joseph Shipley.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://i.ibb.co/39YJvBpy/IMG-7135.jpg" alt="Joseph Shipley Profile Image" class="profile-img">
+      <p>Joseph Shipley is a music producer from central Florida. Has been doing music since 2020 combining synthwave and his own genres, Joseph’s goal is to put out as much music as possible mainly for fun, he is working on his first OFFICIAL Album which will come out around January-June 2027, for the time being, there are other music projects Such As BlueSkyCatMusic The Second Longterm project, and BlueFly (an upcoming experimental music project)</p>
+    </section>
+
+    <!-- Discography Section (Albums, Singles, EPs) -->
+    <section id="discography">
+      <h2>Discography</h2>
+      
+      <h3>Albums</h3>
+      <p><em>First OFFICIAL Album coming January-June 2027!</em></p>
+
+      <h3>EPs</h3>
+      <p><em>Coming Soon...</em></p>
+
+      <h3>Singles</h3>
+      <p><em>Coming Soon...</em></p>
+    </section>
+
+    <!-- Music Projects Section -->
+    <section id="projects">
+      <h2>Music Projects</h2>
+
+      <div class="project-card">
+        <h3>BlueSkyCatMusic</h3>
+        <img src="https://i.ibb.co/gM4L9CcP/IMG-7137.jpg" alt="BlueSkyCatMusic Image" class="project-img">
+        <p>BlueSkyCatMusic is a more interesting experimental artist from central Florida, he combines instruments such as synthesizers and such for his music, he has been doing music since 2020 and wouldn't mind making it a career one day, he mostly uploads more on bandcamp but is trying to upload on other platforms as well, he makes synthy liminal house electronic music, but does other genres as well, tries too at least.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>BlueFly</h3>
+        <p>(TBA)</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Drop Me A Line!</p>
+      <p>My Email Is: <a href="mailto:CassetteMan514@TutaMail.com">CassetteMan514@TutaMail.com</a></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
